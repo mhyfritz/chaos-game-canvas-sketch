@@ -4,7 +4,7 @@
   "description": "chaos game in canvas-sketch",
   "main": "sketch.js",
   "scripts": {
-    "start": "canvas-sketch --html=index.html sketch.js"
+    "start": "canvas-sketch --html=index.html --open sketch.js"
   },
   "keywords": [],
   "author": "Markus Hsi-Yang Fritz <markus.h.y.fritz@gmail.com>",
