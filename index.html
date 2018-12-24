@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+  <meta charset="UTF-8">
+  <meta
+    name="viewport"
+    content="width=device-width,shrink-to-fit=0,user-scalable=no,minimum-scale=1,maximum-scale=1"
+  >
+  <title>chaos game canvas sketch</title>
+  <style>
+    body {
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      margin: 0;
+      text-align: center;
+      font-family: sans-serif;
+    }
+    canvas {
+      margin: auto;
+      display: block;
+      box-shadow: 0 2px 12px -2px rgba(0, 0, 0, 0.15);
+    }
+    select {
+      font-size: 1.1rem;
+      border: 1px solid #d3d3d3;
+      border-radius: 3px;
+      background: #efefef;
+      padding: 0.3rem 0.5rem;
+      margin-bottom: 0.5rem;
+    }
+  </style>
+  <body>
+    <div>
+      <select id="fractal-select">
+        <option value="triangle-1">Triangle</option>
+        <option value="square-1">Square 1</option>
+        <option value="square-2">Square 2</option>
+        <option value="square-3">Square 3</option>
+        <option value="pentagon-1">Pentagon</option>
+      </select>
+      <canvas id="sketch"></canvas>
+    </div>
+    <script src="sketch.js"></script>
+  </body>
+</html>
